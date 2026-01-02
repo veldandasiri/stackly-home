@@ -101,6 +101,25 @@
   opacity: 0.9;
 }
 
+.btn {
+  padding: 15px 30px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 4px 8px rgba(255, 107, 107, 0.3);
+}
+
+.btn:hover {
+  background: #ff5252;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(255, 107, 107, 0.4);
+}
+
 /* SERVICES */
 .services {
   padding: 100px 50px;
@@ -268,9 +287,87 @@ footer {
   .navbar {
     flex-direction: column;
     gap: 10px;
+    padding: 15px 20px;
+  }
+
+  .logo-box h2 {
+    font-size: 22px;
+  }
+
+  .navbar a {
+    margin-left: 15px;
+  }
+
+  .hero {
+    height: 80vh;
+    padding: 20px 15px;
   }
 
   .hero h1 {
     font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+
+  .services {
+    padding: 50px 20px;
+  }
+
+  .services h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .service-box {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .card {
+    padding: 25px 20px;
+  }
+
+  .about {
+    padding: 50px 20px;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .about h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+
+  .about p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .contact {
+    padding: 50px 20px;
+    min-height: 70vh;
+  }
+
+  .contact h2 {
+    font-size: 2rem;
+  }
+
+  .contact form {
+    max-width: 100%;
+    padding: 30px 20px;
+  }
+
+  footer {
+    padding: 15px 10px;
+    font-size: 0.8rem;
   }
 }
