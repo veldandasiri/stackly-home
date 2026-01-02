@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import ServiceCard from "./Components/ServiceCard";
+import "./App.css";
 
 export default function App() {
   const [showCloud, setShowCloud] = useState(false);
